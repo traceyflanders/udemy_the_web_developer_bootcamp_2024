@@ -1,5 +1,5 @@
 
-### Docs
+# Docs
 
 ## Trello Board
 https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
@@ -7,31 +7,30 @@ https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
 https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
 
 ## Mozilla HTML
-https://developer.mozilla.org/en-US/docs/Web/HTML
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ## Mozilla CSS
-https://developer.mozilla.org/en-US/docs/Web/CSS
+- https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ## Mozilla JavaScript
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-### Code Repos
+## Code Repos
 TheWebDeveloperBootcampSolutions: https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
+## Software Install
+VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
 
-### Software Install ###
-VS Studio - addons https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
 - Emmet installed by default
-    <li*5.
+  - <li*5.
 - Material Theme: Paleknight high constrast
-- Live Server: 
+- Live Server
 
+# Lessons
 
-### Lessons
-
-## HTML
-Sample text https://en.wikipedia.org/wiki/Chicken
+## HTML Intro
+- Sample text https://en.wikipedia.org/wiki/Chicken
 
 <!DOCTYPE html>
 <html>
