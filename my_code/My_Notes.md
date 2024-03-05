@@ -1,5 +1,6 @@
 
 # Docs
+- Project Folder: ```/Users/tflande/My Drive/Projects/Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024```
 
 ## Trello Board
 - https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
@@ -43,10 +44,11 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
 </html>
 ```
 
-### VS Code html boilerplate shortcut
-Type:```!```
+## VS Code Shortcuts
+- VS User Settings: ```cmd + ,```
+- HTML boilerplate: ```!```
 
-Output:
+- Output:
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -60,3 +62,7 @@ Output:
 </body>
 </html>
 ```
+
+- Command Palette: ```cmd + shift + p```
+- Format code: ```option + shift + f```
+  - You can also auto enable formatting by searching *user settings* for "format", and also "format html" to turn it on for just html.
