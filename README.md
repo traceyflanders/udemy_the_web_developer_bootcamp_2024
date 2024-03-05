@@ -1,10 +1,8 @@
-# udemy_the_web_developer_bootcamp_2024
-Udemy Web Developer Bootcamp 2024 Code
 
-[Udemy - The Web Developer Bootcamp 2024 By Colt Steele](https://www.udemy.com/share/101W9C3@tnDbvQIOfdQtnl4Ik-tzoOyk3E8v5IoZV1TSct5vvUCZb89h8-mBdqoGD9aHCYHM/)
+#[Udemy - The Web Developer Bootcamp 2024 By Colt Steele](https://www.udemy.com/share/101W9C3@tnDbvQIOfdQtnl4Ik-tzoOyk3E8v5IoZV1TSct5vvUCZb89h8-mBdqoGD9aHCYHM/)
 
 
-# Course Documentation
+## Course Documentation
 - Project Local Folder: ```/Users/tflande/My Drive/Projects/Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024```
 - [GitHub Markdown Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Trello Board for Course *(Bright colored items are essential to understand)*](https://trello.com/b/0PVRE1XQ/web-developer-bootcamp)
@@ -16,7 +14,7 @@ Udemy Web Developer Bootcamp 2024 Code
 - Course Code Repository
   - [TheWebDeveloperBootcampSolutions](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
 
-# Software Install
+## Software Install
 VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
 - Emmet installed by default
   - ```<li*5```
@@ -24,8 +22,8 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
 - Live Server
 
 
-# Lessons
-## HTML Intro
+## Lessons
+### HTML Intro
 - Sample text https://en.wikipedia.org/wiki/Chicken
 
 ```
@@ -41,7 +39,7 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
 ```
 
 
-## VS Code Shortcuts
+### VS Code Shortcuts
 - VS User Settings: ```cmd + ,```
 - HTML boilerplate: ```!```
 
