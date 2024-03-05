@@ -3,22 +3,14 @@
 - Project Local Folder: ```/Users/tflande/My Drive/Projects/Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024```
 - [GitHub Markdown Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-## Trello Board
-- https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
-- https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
+- [Trello Board](https://trello.com/b/0PVRE1XQ/web-developer-bootcamp)
+- [Mozilla HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+   - [Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Mozilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Mozilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Mozilla HTML
-- https://developer.mozilla.org/en-US/docs/Web/HTML
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-
-## Mozilla CSS
-- https://developer.mozilla.org/en-US/docs/Web/CSS
-
-## Mozilla JavaScript
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
-## Code Repos
-TheWebDeveloperBootcampSolutions: https://github.com/Colt/TheWebDeveloperBootcampSolutions
+- Course Code repository
+  - [TheWebDeveloperBootcampSolutions](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
 
 ## Software Install
 VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
