@@ -44,8 +44,13 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
 ```
 
 ### VS Code html boilerplate shortcut
-```!```
-Output
+Type: 
+```
+!
+```
+
+Output:
+
 ```
 <!DOCTYPE html>
 <html lang="en">
