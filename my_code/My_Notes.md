@@ -2,9 +2,8 @@
 # Docs
 
 ## Trello Board
-https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
-
-https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
+- https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
+- https://trello.com/b/0PVRE1XQ/web-developer-bootcamp
 
 ## Mozilla HTML
 - https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -23,7 +22,7 @@ TheWebDeveloperBootcampSolutions: https://github.com/Colt/TheWebDeveloperBootcam
 VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
 
 - Emmet installed by default
-  - <li*5.
+  - ```<li*5```
 - Material Theme: Paleknight high constrast
 - Live Server
 
@@ -32,6 +31,7 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
 ## HTML Intro
 - Sample text https://en.wikipedia.org/wiki/Chicken
 
+```
 <!DOCTYPE html>
 <html>
     <head>
@@ -41,9 +41,12 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
         <!-- Content goes here -->
     </body>
 </html>
+```
 
-### VS Code Shortcut
-! = used to create boilerplate, shown below
+### VS Code html boilerplate shortcut
+```!```
+Output
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,3 +58,4 @@ VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaA
     
 </body>
 </html>
+```
