@@ -13,7 +13,7 @@
    - [Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
    - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
    - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- Course Code Repository
+- Github Code Course Repository
   - [TheWebDeveloperBootcampSolutions](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
 
 # Software Install
