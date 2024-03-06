@@ -110,7 +110,8 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 ## Screen Reader Demo of Stripe.com
 - On Mac `cmd + F5`
     
-## Emmet Demo
+## Emmet Syntax Demo
+Make your html coding fast ffs!
 - [Cheat sheet](https://docs.emmet.io/cheat-sheet/)
 - Create new page
     - `!` tab key
@@ -159,4 +160,23 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
             </ul>
         </nav>
         ```
-    - 
+    - Use  `$` and [href=] to auto enumerate with `nav>ul>li*3>a[href=www.$.net]{click me}`
+        ```
+        <nav>
+            <ul>
+                <li><a href="www.1.net"></a></li>
+                <li><a href="www.2.net"></a></li>
+                <li><a href="www.3.net"></a></li>
+            </ul>
+        </nav>
+        ```
+    - Use `{}` for adding in text `nav>ul>li*3>a[href=www.$.net]{Click me}`
+        ```
+        <nav>
+            <ul>
+                <li><a href="www.1.net">Click me</a></li>
+                <li><a href="www.2.net">Click me</a></li>
+                <li><a href="www.3.net">Click me</a></li>
+            </ul>
+        </nav>
+        ```
