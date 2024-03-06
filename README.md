@@ -46,7 +46,8 @@
 - VS User Settings: `cmd + ,`
 - HTML boilerplate: `!`
 
-- Output: ```
+- Output:
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
