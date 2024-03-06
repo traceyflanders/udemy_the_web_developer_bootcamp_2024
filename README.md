@@ -224,4 +224,42 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - For more complicated table formations use `<tr colspan="1">` and `<tr rowspan="2">`
 
 ## HTML Forms
-- 
+- Form syntax
+    ```
+        <form action="/search/">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+            <input type="text" placeholder="enter some text">
+        </form>
+    ```
+- Inputs `<input type="text">` don't have a closing tag
+    - Placeholder `<input type="text" placeholder="enter a username">`helps tell users what to enter inside input field
+- Labels help identify ids submitted, like checkboxes, ids should be unique
+    - They also make it so if you click on form text it will highlight the correct form field
+    - Use `<label for="somename">` to reference "input" field id `<input type="text" id="username" name="username">`
+    - The `name="username"` attribute is what gets sent during form submission 
+        - /search?username=tflande&password=yikes&color=%23d04949&num=4&time=13%3A29
+- Buttons in forms submit them `<button></button>`
+    - Button `<button>Send</button>` and `<button type="submit">Send</button>` are the same inside a form
+    - Button inside a form that wont submit `<button type="button">Send</button>`
+    - Different way to do button as an input `<input type="button" value="Send it">` value is used to name the button, otherwise its call Submit by default
+    - Buttons aren't required, user hits enter and form submits
+- Check boxes
+    - `checked` checks the box by default
+    ```
+        <form action="birds">
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to everything!</label>
+            <button>Send</button>
+        </form>
+    ```
+- Radio buttons
+    - Using the same name attribute makes a list of radio buttons in a group where only one can be selected, this is where the id attribute is important
+    ```
+    <label for="xs">XS:</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="s">S</label>
+    <input type="radio" name="size" id="s" value="s">
+    <label for="m">M</label>
+    <input type="radio" name="size" id="m" value="m">
+    ```
