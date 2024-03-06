@@ -63,3 +63,9 @@
 - Command Palette: `cmd + shift + p`
 - Format code: `option + shift + f`
   - You can also auto enable auto formatting by searching VS *user settings* for "format", and also "format html" to turn it on for just html.
+- Duplicate lines `shift + option + down arrow` or  `shift + option + up arrow`
+
+## Lists
+- Unordered List`<ul>`
+- Ordered List `<ol>`
+- List item `<li>`
