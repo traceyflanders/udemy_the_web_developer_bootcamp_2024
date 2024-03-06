@@ -238,7 +238,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - They also make it so if you click on form text it will highlight the correct form field
     - Use `<label for="somename">` to reference "input" field id `<input type="text" id="username" name="username">`
     - The `name="username"` attribute is what gets sent during form submission 
-        - /search?username=tflande&password=yikes&color=%23d04949&num=4&time=13%3A29
+        - `/search?username=tflande&password=yikes&color=%23d04949&num=4&time=13%3A29`
 - Buttons in forms submit them `<button></button>`
     - Button `<button>Send</button>` and `<button type="submit">Send</button>` are the same inside a form
     - Button inside a form that wont submit `<button type="button">Send</button>`
@@ -246,20 +246,37 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - Buttons aren't required, user hits enter and form submits
 - Check boxes
     - `checked` checks the box by default
-    ```
-        <form action="birds">
-            <input type="checkbox" name="agree_tos" id="agree" checked>
-            <label for="agree">I agree to everything!</label>
-            <button>Send</button>
-        </form>
-    ```
+        ```
+            <form action="birds">
+                <input type="checkbox" name="agree_tos" id="agree" checked>
+                <label for="agree">I agree to everything!</label>
+                <button>Send</button>
+            </form>
+        ```
 - Radio buttons
-    - Using the same name attribute makes a list of radio buttons in a group where only one can be selected, this is where the id attribute is important
+    - Using the same `name` attribute makes a list of radio buttons in a group where only one can be selected, this is where the `id` attribute is important
+        ```
+        <!-- value attribute is needed -->
+        <label for="xs">XS:</label>
+        <input type="radio" name="size" id="xs" value="xs">
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="m">
+        ```
+    - The value attribute is used to signal what radio button was selected once form has been submitted
+        - `birds?agree_tos=on&size=s`
+- Dropdown menus aka selects
     ```
-    <label for="xs">XS:</label>
-    <input type="radio" name="size" id="xs" value="xs">
-    <label for="s">S</label>
-    <input type="radio" name="size" id="s" value="s">
-    <label for="m">M</label>
-    <input type="radio" name="size" id="m" value="m">
+    <label for="meal">Please select an entree</label>
+    <select name="meal" id="meal">
+        <option value="fish">Fish</option>
+        <option value="veg">Vegetarian</option>
+        <option value="steak" selected>Steak</option>       <!-- default menu item-->
+    </select>
+    ```
+- Range sliders
+    ```
+    <label for="cheese">Amount of Cheese</label>
+    <input type="range" id="cheese" name="cheese" min="1" max="100" step="2" value="75">     <!-- min max required>
     ```
