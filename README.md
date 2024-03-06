@@ -111,7 +111,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - On Mac `cmd + F5`
     
 ## Emmet Syntax Demo
-Make your html coding fast ffs!
+- Make your html coding fast ffs! Emmet is built into VS Code
 - [Cheat sheet](https://docs.emmet.io/cheat-sheet/)
 - Create new page
     - `!` tab key
@@ -160,7 +160,7 @@ Make your html coding fast ffs!
             </ul>
         </nav>
         ```
-    - Use  `$` and [href=] to auto enumerate with `nav>ul>li*3>a[href=www.$.net]{click me}`
+    - Use  `$` and [href=] to auto enumerate with `nav>ul>li*3>a[href=www.$.net]`
         ```
         <nav>
             <ul>
@@ -180,3 +180,10 @@ Make your html coding fast ffs!
             </ul>
         </nav>
         ```
+
+## HTML Tables
+- Bad Examples of using tables in the 1900's
+    - [Wikipedia](https://en.wikipedia.org/wiki/List_of_largest_cities#List) 
+    - [Bob Dole](http://www.dolekemp96.org/main.htm)
+- [Bird Species](https://en.wikipedia.org/wiki/Largest_organisms#Heaviest_living_bird_species)
+    - 
