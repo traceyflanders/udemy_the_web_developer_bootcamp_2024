@@ -17,11 +17,12 @@
   - [TheWebDeveloperBootcampSolutions](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
 
 # Software Install
-VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
-- Emmet installed by default
-  - ```<li*5```
-- Material Theme: Paleknight high constrast
-- Live Server
+- Install [VS Studio](https://code.visualstudio.com/Download) from Microsoft *(Billy Gates)*
+- VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
+  - Emmet installed by default
+    - ```<li*5```
+  - Material Theme: Paleknight high constrast
+  - Live Server
 
 
 # Lessons
