@@ -20,7 +20,7 @@
 - Install [Visual Studio Code](https://code.visualstudio.com/Download) from Microsoft *(Billy Gates)*
 - VS Studio Colts' Recommended Extensions https://www.youtube.com/watch?v=rH1RTwaAeGc&t=1s
   - Emmet installed by default
-    - ```<li*5```
+    - `<li*5`
   - Material Theme: Paleknight high constrast
   - Live Server
 
@@ -43,8 +43,8 @@
 
 
 ## VS Code Shortcuts
-- VS User Settings: ```cmd + ,```
-- HTML boilerplate: ```!```
+- VS User Settings: `cmd + ,`
+- HTML boilerplate: `!`
 
 - Output: ```
 <!DOCTYPE html>
@@ -59,6 +59,6 @@
 </body>
 </html>
 ```
-- Command Palette: ```cmd + shift + p```
-- Format code: ```option + shift + f```
+- Command Palette: `cmd + shift + p`
+- Format code: `option + shift + f`
   - You can also auto enable auto formatting by searching VS *user settings* for "format", and also "format html" to turn it on for just html.
