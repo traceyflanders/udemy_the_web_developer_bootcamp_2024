@@ -186,4 +186,42 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - [Wikipedia](https://en.wikipedia.org/wiki/List_of_largest_cities#List) 
     - [Bob Dole](http://www.dolekemp96.org/main.htm)
 - [Bird Species](https://en.wikipedia.org/wiki/Largest_organisms#Heaviest_living_bird_species)
-    - 
+    - Table standard syntax 
+        ```
+        <table>
+            
+            <thead>     <!-- Head of table -->
+            
+                <tr>
+                    <th>heading 1</th>      <!-- Headings of table -->
+                    <th>heading 2</th>
+                    <th>heading 3</th>
+                </tr>
+            
+            </thead>
+
+            
+            <tbody>     <!-- Body of table -- >
+
+                <tr>        <!-- Table row 1 -->
+                    <td>test here</td>       <!-- Table text -->
+                    <td>test here</td>
+                    <td>test here</td>
+                </tr>
+                
+                <tr>        <!-- Table row 2 -->
+                    <td>test here</td>
+                    <td>test here</td>
+                    <td>test here</td>
+                </tr>
+            </tbody>
+
+            <tfoot>     <!-- Footer of table -->
+            </tfoot>
+
+        </table>
+        ```
+    - For more complicated table formations use `<tr colspan="1">` and `<tr rowspan="2">`
+
+## HTML Forms
+- 
