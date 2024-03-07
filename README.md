@@ -284,6 +284,8 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 
 # CSS
 ## Intro
+- [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [CSS Online Coding, Book Store UI example](https://codepen.io/TurkAysenur/pen/JjGKKrP)
 - [Color Picker](https://htmlcolorcodes.com/color-picker/)
 - [Color Names](https://htmlcolorcodes.com/color-names/)
+- [List on most common fonts found on Windows and/or Mac](https://www.cssfontstack.com/)
