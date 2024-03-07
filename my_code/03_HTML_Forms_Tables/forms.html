@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter a number:</label>
+            <input type="number" placeholder="enter a number" id="number" name="num" min="1" max="1000" step="1">
+        </p>
+        <p>
+            <label for="time">Enter a time</label>
+            <input type="time" id="time" name="time">
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+
+    <h2>Reddit Search</h2>
+    <form action="https://www.reddit.com/search/">
+        <!-- https://www.reddit.com/search/?q=pizza -->
+        <label for="q">Search Reddit</label>
+        <input type="text" name="q" id="q" placeholder="enter a search query">
+        <button>Search Reddit</button>
+    </form>
+    <h2>Google Search</h2>
+    <!-- https://www.google.com/search?q=tacos -->
+    <form action="https://www.google.com/search">
+        <label for="q">Search Google</label>
+        <input type="text" name="q" id="q" placeholder="enter a search query">
+        <button>Search Google</button>
+    </form>
+    <h2>Youtube Search - No search button</h2>
+    <!-- https://www.youtube.com/results?search_query=dog -->
+    <form action="https://www.youtube.com/results">
+        <label for="q">Search YouTube</label>
+        <input type="text" name="search_query" id="search_query" placeholder="enter a search query">
+    </form>
+    <h2>Check Boxes</h2>
+    <form action="birds">
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree" checked>
+            <label for="agree">I agree to everything!</label>
+        </p>
+        <p>
+            <!-- value attribute required-->
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak" selected>Steak</option> <!-- default menu item-->
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" name="cheese" min="1" max="10" step="2">
+        </p>
+        <p>
+            <label for="requests">Any special requests?</label><br>
+            <textarea name="requests" id="requests" cols="40" rows="10" placeholder="type something here"></textarea>
+        </p>
+        <button>Send</button>
+    </form>
+    <h2>Validation of fields Demo</h2>
+    <form action="/dummy">
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" required>
+        </p>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="first" minlength="5" maxlength="20">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" required>
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+</body>
+
+</html>
