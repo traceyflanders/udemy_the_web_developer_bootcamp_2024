@@ -1,0 +1,18 @@
+/*
+Styling
+*/
+
+h2 {
+    color: teal;
+    background-color: #2aa7d8;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    background: orange;
+}
