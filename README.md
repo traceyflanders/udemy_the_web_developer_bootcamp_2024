@@ -319,10 +319,16 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - Last selector wins
     - Last css file specifiied in header wins
 - CSS Specificity, which rules to apply when there is a conflict?
-    - Order of precendence
-        1. ID #mybutton
-        2. Class .classname
-        3. Elements p, a
+    - Order of precendence if used in css style sheet
+        1. ID `#mybutton`
+        2. Class `.classname`
+        3. Elements `p, a`
     - Element vs Class - The more specific wins!
         - `button:hover { color: red; }` loses over `.post button:hover { color: orange; }`
+    - Order precedence overall
+        1. Don't use: Override inline styling of html `!important` is used in a css stylesheet `button { color:firebrick !important; }` override the below
+        2. Don't use: Inline styling set inside html `<button style="color:red">Submit</button>`
+        3. #ID
+        4. .Class
+        5. Elements
 - [Specificity Calculator](https://specificity.keegan.st/)
