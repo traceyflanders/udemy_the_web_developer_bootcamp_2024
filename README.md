@@ -289,3 +289,40 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - [Color Picker](https://htmlcolorcodes.com/color-picker/)
 - [Color Names](https://htmlcolorcodes.com/color-names/)
 - [List on most common fonts found on Windows and/or Mac](https://www.cssfontstack.com/)
+
+## CSS Selectors
+- Selectors `p {}`, `a{}`, `h1 {}`, `h2, h3 {}` etc.
+- id selector `#mybutton {}`: used to target html with `id="mybutton"`
+    - Not commonly used 
+- class selector `.cool_button {}`: used to select html with `class="cool_button"`
+    - most used
+- Descendant selectors
+    - Direct selectors `h1 > p {}`: selects h1 one level down to paragraph
+    - Adjacent selectors (combinator) `h1 + p {}`: Used to select paragraphs immediately followed by h1
+- Attribute selector `input[type="text"] { width: 300px; color: yellow; }` used to select all attributes of said type "text"
+    - Examples: 
+        - Another option `section[class="post"] { color: red; }` is the same as saying `class="post"` in html and css reads `section.post { color:red; }`
+        - `*` Select all links with work google in them using `*=` shown `a[href*=google] { color: pink; }`
+        - `$` Select all link ending in .org `a[href$=".org"] { color: purple; }`
+        - `~` Select all classes with word logo `a[class~="logo"] { padding: 2px; }`
+- Pseudo classes :class
+    - `:active`, `:hover`, `:checked`, `:first`, `:not`, `:nth-of-type`, and more etc
+    - `:hover` Select all post class buttons: `.post button:hover { color: orange; }`
+    - `nth-of-type(x)` Select every other post class `.post:nth-of-type(2n) { background-color: grey; }`
+- Psuedo Elements
+    - `::after`, `::before`, `::first-lettter`, `::first-line`, `::selection`, and more
+    - `::first-letter` Make all h2 first letter bigger: `h1::first-letter { font-size: 50px; }`
+    - `::first-line` Make all paragraph first lines purple `p::first-line { color: purple; }`
+    - `::selection` Make all text selection orange: `::selection { color: orange; }`
+### Which CSS selector takes precendence?
+- Order matters! Last set wins
+    - Last selector wins
+    - Last css file specifiied in header wins
+- CSS Specificity, which rules to apply when there is a conflict?
+    - Order of precendence
+        1. ID #mybutton
+        2. Class .classname
+        3. Elements p, a
+    - Element vs Class - The more specific wins!
+        - `button:hover { color: red; }` loses over `.post button:hover { color: orange; }`
+- [Specificity Calculator](https://specificity.keegan.st/)
