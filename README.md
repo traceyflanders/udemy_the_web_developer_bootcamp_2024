@@ -25,8 +25,8 @@
   - Live Server
 
 
-# Lessons
-## HTML Intro
+# HTML
+## Intro
 - Sample text https://en.wikipedia.org/wiki/Chicken
     ```
     <!DOCTYPE html>
@@ -62,6 +62,7 @@
     - You can also auto enable auto formatting by searching VS *user settings* for "format", and also "format html" to turn it on for just html.
 - Duplicate lines `shift + option + down arrow` or  `shift + option + up arrow`
 - Comment in html: `cmd + /`
+- Holding `option` and "clicking in multiple areas" creates multiple cursors if you want to add the same text to the same lines
 
 ## HTML elements
 - Lists
@@ -280,3 +281,9 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     <label for="cheese">Amount of Cheese</label>
     <input type="range" id="cheese" name="cheese" min="1" max="100" step="2" value="75">     <!-- min max required>
     ```
+
+# CSS
+## Intro
+- [CSS Online Coding, Book Store UI example](https://codepen.io/TurkAysenur/pen/JjGKKrP)
+- [Color Picker](https://htmlcolorcodes.com/color-picker/)
+- [Color Names](https://htmlcolorcodes.com/color-names/)
