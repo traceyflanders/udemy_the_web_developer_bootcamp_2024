@@ -352,3 +352,30 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
         - `display: inline;` to convert block level elements like h1, h2 to inline
         - `display: block;` to converrt normally inline like span to block
         - `display: none;` hides from browser view but html is still in page
+- CSS sizes
+    - px is pixels
+    - em or m
+        - 1em is 1x the size of parent size
+        - 2em is 2x the size of parent size
+        - 0.5 is half the size of the parent size
+    - rems
+        - scale better than em's
+        - using pages default root size verus parent, 1rem will always be same as root or default
+## Other CSS
+- [What"](https://unsplash.com/)
+- [Google Fonts](https://fonts.google.com/)
+- Alpha Color
+    - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
+- Opacity
+    - Works on text, opacity: 0.3; 0 to 1 being not transparent
+- Position Property
+    - position: `static` is default
+    - position: `relative` keeps item in place relative its place in html location
+        - top: 100px; push down 100px;
+        - left: 100px; pushes to the right
+    - position: `absoulute`
+    - position: `fixed` good for navs
+    - position: `sticky`
+- Transistions
+    - They are cool animations
+
