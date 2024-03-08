@@ -362,7 +362,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
         - scale better than em's
         - using pages default root size verus parent, 1rem will always be same as root or default
 ## Other CSS
-- [What"](https://unsplash.com/)
+- [Free Images unsplash](https://unsplash.com/)
 - [Google Fonts](https://fonts.google.com/)
 - Alpha Color
     - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
