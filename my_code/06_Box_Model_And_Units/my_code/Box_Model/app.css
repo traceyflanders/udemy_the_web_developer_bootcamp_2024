@@ -1,0 +1,36 @@
+h1 {
+    background-color: pink;
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+div {
+    width: 200px;
+}
+
+#box1 {
+    background-color: rgb(122, 93, 122);
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    box-sizing: border-box;
+}
+
+#box2 {
+    background-color: rgb(127, 56, 127);
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+
+#box3 {
+    background-color: rgb(124, 6, 124);
+    border-style: dashed;
+    border-color: yellow;
+    border-width: 2px;
+    box-sizing: border-box;
+    /* border-radius: 10px; */
+    border-radius: 5%;
+}
