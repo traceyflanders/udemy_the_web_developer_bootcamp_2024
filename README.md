@@ -332,3 +332,23 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
         4. .Class
         5. Elements
 - [Specificity Calculator](https://specificity.keegan.st/)
+## CSS Boxing
+- Box borders require 3 parameters `border-style`, `border-color`, `border-width` to show up and `box-sizing` to remain within specified width constraints 
+    ```
+    #box1 {
+        width: 100px;
+        background-color: black;
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        box-sizing: border-box;
+    }
+    ```
+    - Border short hand `border: medium dashed green`
+        - Syntax: border: width | style | color
+- Display Inline or Block
+    - width and height are not ignored with regular block elements, but they are for normally inline elements
+    - You can change from inline to block, but the above still applies
+        - `display: inline;` to convert block level elements like h1, h2 to inline
+        - `display: block;` to converrt normally inline like span to block
+        - `display: none;` hides from browser view but html is still in page
