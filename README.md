@@ -76,7 +76,7 @@
     - Unline block its used to format things inline on same line versus creating a block lik `<div>`
 - Line break, no ending /br `<br>`
 - A line, not ending /hr`<hr>`
-- Superscript put text above line for reference call outs`<sup></sup>`   Saquatch<sup><a href="somepage.html">[2]</a></sup>
+- Superscript put text above line for reference call outs`<sup></sup>`   Sasquatch<sup><a href="somepage.html">[2]</a></sup>
 - Subscript put text below line scientific formulas `<sub></sub>`   H<sup><a href="somepage.html">2</a></sup>O or H<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>
   - Together Superscipt and Subscript can make fractions `<sup>1</sup>/<sub>2</sub> + <sup>1</sup>/<sub>2</sub> = 1`   <sup>1</sup>/<sub>2</sub> + <sup>1</sup>/<sub>2</sub> = 1   
 - HTML Entities are like copyright symbols, degrees symbols
@@ -94,7 +94,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - Good example: stripe.com
     - Navigation `<nav>`
     - Main page content not navigation or search`<main>`
-    - Section is a generic place holder `<section>` can you in place of nav
+    - Section is a generic place holder `<section>`
     - Article for reusable code like a widget, has heading `<article>`
     - Aside is a side note `<aside>`
     - Header `<header>` used above things in page, its not the head
@@ -312,13 +312,13 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - `nth-of-type(x)` Select every other post class `.post:nth-of-type(2n) { background-color: grey; }`
 - Psuedo Elements
     - `::after`, `::before`, `::first-lettter`, `::first-line`, `::selection`, and more
-    - `::first-letter` Make all h2 first letter bigger: `h1::first-letter { font-size: 50px; }`
+    - `::first-letter` Make all h2 first letter bigger: `h2::first-letter { font-size: 50px; }`
     - `::first-line` Make all paragraph first lines purple `p::first-line { color: purple; }`
     - `::selection` Make all text selection orange: `::selection { color: orange; }`
 ### Which CSS selector takes precendence?
 - Order matters! Last set wins
     - Last selector wins
-    - Last css file specifiied in header wins
+    - Last css file specified in header wins
 - CSS Specificity, which rules to apply when there is a conflict?
     - Order of precendence if used in css style sheet
         1. ID `#mybutton`
@@ -379,4 +379,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - position: `sticky`
 - Transistions
     - They are cool animations
+- Transforms
+    - Rotate, resize, translate move positions, skew slants
+-
 
