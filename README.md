@@ -366,7 +366,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - Resources
     - [Free Images unsplash](https://unsplash.com/)
     - [Google Fonts](https://fonts.google.com/)
-    - [My Code](Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024/my_code/07_Other_Properties) 
+    - [My Code](/Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024/my_code/07_Other_Properties) 
 - Alpha Color
     - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
 - Opacity
@@ -394,4 +394,3 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
 - Fonts
     - Free fonts we can use [Google Fonts](https://fonts.google.com/)
-    - [07_Other_Properties/PhotoSite/my_code](07_Other_Properties/PhotoSite/my_code)
