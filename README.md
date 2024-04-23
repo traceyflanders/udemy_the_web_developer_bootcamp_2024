@@ -28,6 +28,7 @@
 
 # HTML
 ## Intro
+- [Code](/my_code/01_HTML_Intro)
 - Sample text https://en.wikipedia.org/wiki/Chicken
     ```
     <!DOCTYPE html>
@@ -113,6 +114,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - On Mac `cmd + F5`
     
 ## Emmet Syntax Demo
+- [Code](/my_code/02_Intermediate_HTML)
 - Make your html coding fast ffs! Emmet is built into VS Code
 - [Cheat sheet](https://docs.emmet.io/cheat-sheet/)
 - Create new page
@@ -226,6 +228,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - For more complicated table formations use `<tr colspan="1">` and `<tr rowspan="2">`
 
 ## HTML Forms
+- [Code](/my_code/03_HTML_Forms_Tables)
 - Form syntax
     ```
         <form action="/search/">
@@ -285,6 +288,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 
 # CSS
 ## Intro
+- [Code](/my_code/04_CSS_Intro_CODE)
 - [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [CSS Online Coding, Book Store UI example](https://codepen.io/TurkAysenur/pen/JjGKKrP)
 - [Color Picker](https://htmlcolorcodes.com/color-picker/)
@@ -292,6 +296,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - [List on most common fonts found on Windows and/or Mac](https://www.cssfontstack.com/)
 
 ## CSS Selectors
+- [Code](/my_code/05_CSS_Selectors)
 - Selectors `p {}`, `a{}`, `h1 {}`, `h2, h3 {}` etc.
 - id selector `#mybutton {}`: used to target html with `id="mybutton"`
     - Not commonly used 
@@ -334,6 +339,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
         5. Elements
 - [Specificity Calculator](https://specificity.keegan.st/)
 ## CSS Boxing
+- [Code](/my_code/06_Box_Model_And_Units)
 - Box borders require 3 parameters `border-style`, `border-color`, `border-width` to show up and `box-sizing` to remain within specified width constraints 
     ```
     #box1 {
@@ -366,7 +372,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - Resources
     - [Free Images unsplash](https://unsplash.com/)
     - [Google Fonts](https://fonts.google.com/)
-    - [My Code](/my_code/07_Other_Properties) 
+    - [Code](/my_code/07_Other_Properties) 
 - Alpha Color
     - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
 - Opacity
@@ -394,3 +400,5 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
 - Fonts
     - Free fonts we can use [Google Fonts](https://fonts.google.com/)
+
+## Responsive CSS & Flexbox
