@@ -363,8 +363,10 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
         - scale better than em's
         - using pages default root size verus parent, 1rem will always be same as root or default
 ## Other CSS
-- [Free Images unsplash](https://unsplash.com/)
-- [Google Fonts](https://fonts.google.com/)
+- Resources
+    - [Free Images unsplash](https://unsplash.com/)
+    - [Google Fonts](https://fonts.google.com/)
+    - [My Code](Udemy - The Web Developer Bootcamp 2024/udemy_the_web_developer_bootcamp_2024/my_code/07_Other_Properties) 
 - Alpha Color
     - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
 - Opacity
@@ -379,7 +381,17 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - position: `sticky`
 - Transistions
     - They are cool animations
+    - Help with smooothing movement of items
 - Transforms
+    - Good for 3D animations movement
     - Rotate, resize, translate move positions, skew slants
--
-
+    - [Transforms doc](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms)
+    - Use transforms instead of margins to move items
+-CSS Button Hover
+ - [box-shadow syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- Background 
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/background
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+- Fonts
+    - Free fonts we can use [Google Fonts](https://fonts.google.com/)
+    - [07_Other_Properties/PhotoSite/my_code](07_Other_Properties/PhotoSite/my_code)
