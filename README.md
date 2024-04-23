@@ -366,7 +366,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 - Resources
     - [Free Images unsplash](https://unsplash.com/)
     - [Google Fonts](https://fonts.google.com/)
-    - [My Code](https://github.com/traceyflanders/udemy_the_web_developer_bootcamp_2024/my_code/07_Other_Properties) 
+    - [My Code](/my_code/07_Other_Properties) 
 - Alpha Color
     - Works only on background, background-color: rgba(255,255,255, 0.5) 4th channel 0 transparent to 1 not transparent
 - Opacity
