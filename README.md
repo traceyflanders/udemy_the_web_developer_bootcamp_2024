@@ -402,3 +402,7 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
     - Free fonts we can use [Google Fonts](https://fonts.google.com/)
 
 ## Responsive CSS & Flexbox
+Resources
+- [Flexbox Deck](https://www.canva.com/design/DAEAqZwTYsQ/gBvHupw_5zI2-41-u9q0eg/view?utm_content=DAEAqZwTYsQ&utm_campaign=designshare&utm_medium=link&utm_source=editor#2)
+- [Code](/my_code/10_Flexbox_And_Responsive)
+- 
