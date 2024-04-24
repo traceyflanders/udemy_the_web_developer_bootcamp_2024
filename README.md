@@ -405,4 +405,28 @@ Newer way to group content versus just using divs, helps crawlers to identify wh
 Resources
 - [Flexbox Deck](https://www.canva.com/design/DAEAqZwTYsQ/gBvHupw_5zI2-41-u9q0eg/view?utm_content=DAEAqZwTYsQ&utm_campaign=designshare&utm_medium=link&utm_source=editor#2)
 - [Code](/my_code/10_Flexbox_And_Responsive)
-- 
+
+## Pricing Panel Project
+- [Code](/my_code/11_PricingPanel)
+- [CSS Reset Tool](https://meyerweb.com/eric/tools/css/reset/index.html)
+
+## Bootstrap CSS Framework
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Deck](https://www.canva.com/design/DAEA4l9A5zg/yeUKVtb-aSkpzPY0zemgcg/view?utm_content=DAEA4l9A5zg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- [Code](/my_code/12_Bootstrap)
+- Uses grids, nav bars, responsive web site framework
+- Installation basics
+    - Add bootstrap cdn css before your custom css or you can download it
+    - Add js scripts at bottom of page just before closing `</body>`
+- First bootstrap component is class container
+    - <div class="container"></div>
+    - Larger margins <div class="component-fluid"></div>
+    - Containers can be nested inside each other
+- Buttons
+- Typography
+    - Use display-1 throught -4 for sizing headers. Not dynamically sized by default.
+- Rows have 12 units that can be divided with columns
+- Columns are inside rows
+    - col are auto sized columns
+    - col-3 specified use 3 units of the total 12, leaving 9 left.
+
